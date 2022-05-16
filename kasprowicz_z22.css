@@ -2,7 +2,7 @@ p {
   color: red;
   font-size: 22pt;
 }
-#gruby_kasprowicz {
+p#gruby_kasprowicz {
   color: green;
   font-size: 17pt;
   font-weight: bold;
@@ -10,5 +10,5 @@ p {
 #dlawszystkich_kasprowicz {
   color: yellow;
   font-size: 10pt;
-  font-family: arial;
+  font-family: Arial;
 }
