@@ -4,5 +4,5 @@ h3 {
   padding: 50px;
   border: 5px groove #808080;
   background: #964B00;
-  align: right;
+  align-content: right;
 }
