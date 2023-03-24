@@ -6,15 +6,40 @@
 <body>
 <ul>
   <li><h1>Co to są pseudoklasy?</h1><br>
-  <p></p></li><br>
+  <p>Kilka ściśle określonych klas pozwalających na formatowanie niektórych elementów strony</p></li><br>
   
   <li><h1>Uwaga dotycząca dwukropka</h1><br>
-  <p></p></li><br>
+  <p>Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy selektorem a nazwą klasy</p></li><br>
   
   <li><h1>Tabela opisująca pseudoklasy</h1><br>
   <table>
     <tr>
-      <td></td>
+      <td>A:link</td>
+      <td>odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze odwiedzone</td>
+    </tr>
+    <tr>
+      <td>A:visited</td>
+      <td>odpowiada za formatowanie hiperłącza już odwiedzonego</td>
+    </tr>
+    <tr>
+      <td>A:hover</td>
+      <td>zmiany pewnych elementów po najechaniu na nie urządzeniem wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor lub element blokowy DIV</td>
+    </tr>
+    <tr>
+      <td>A:active</td>
+      <td>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego zwolnieniem</td>
+    </tr>
+    <tr>
+      <td>A:focus</td>
+      <td>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był formatowany innym kolorem. Odsyłacz posiadający tzw fokus - zaznaczony przy poruszaniu się po dokumencie przy pomocy klawisza tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką reakcję przeglądarki, jakby dany odsyłacz został kliknięty</td>
+    </tr>
+    <tr>
+      <td>A:lang</td>
+      <td>formatowanie wielojęzykowych dokumentów</td>
+    </tr>
+    <tr>
+      <td>A:first-child</td>
+      <td>umożliwia określenie formatowania dla pierwszego dziecka wybranego elementu</td>
     </tr>
   </table></li><br>
   
