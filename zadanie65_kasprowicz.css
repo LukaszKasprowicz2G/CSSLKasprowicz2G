@@ -1,24 +1,48 @@
+p {
+  font-size: 10pt;
+}
+
 p:first-child {
   font-size: 9mm;
   font-style: italic;
 }
 
-p {
-  font-size: 10pt;
-}
-
 div#pierwszy_kasprowicz {
   width: 732pt;
+  color: rgb(255,192,203);
+  border: 7;
+  border-style: solid;
+  color: rgb(184,3,255);
+  border-top-right-radius: 13;
+  border-top-left-radius: 13;
+  border-bottom-left-radius: 13;
+  border-bottom-right-radius: 13;
 }
 
-div#pierwszy_kasprowicz {
+div#drugi_kasprowicz {
   width: 932pt;
   margin-left: auto;
   margin-right: auto;
+  color: rgb(147,246,0);
+  border: 3;
+  border-style: solid;
+  color: rgb(0,0,0);
+  border-top-right-radius: 17;
+  border-top-left-radius: 17;
+  border-bottom-left-radius: 17;
+  border-bottom-right-radius: 17;
 }
 
-div#pierwszy_kasprowicz {
+div#trzeci_kasprowicz {
   width: 1132pt;
   margin-left: auto;
   margin-right: auto;
+  color: rgb(65,105,225);
+  border: 5;
+  border-style: solid;
+  color: rgb(0,0,128);
+  border-top-right-radius: 17;
+  border-top-left-radius: 17;
+  border-bottom-left-radius: 17;
+  border-bottom-right-radius: 17;
 }
