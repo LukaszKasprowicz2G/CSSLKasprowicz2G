@@ -15,3 +15,9 @@ a:hover {
   color: red;
   text-decoration: underline;
 }
+div {
+  color: red;
+}
+/* text-decoration: none; - tekst nie posiada dodatkowego wyglądu np. podkreślenia */
+/* */
+/* Łukasz Kasprowicz 3G1 */
