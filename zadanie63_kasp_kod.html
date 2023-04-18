@@ -1,0 +1,106 @@
+<textarea rows=50 cols=100>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>zadanie 63 kasprowicz</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="zadanie63_kasp.css">
+<body>
+<div id="pierwszy_kasprowicz">
+<p> Pierwszy akapit/pierwszy DIV --> Kasprowicz <br>
+nazwa ID akapitu id="pierwszy_kasprowicz" </p>
+<p> Drugi akapit/pierwszy DIV <br>
+pierwszy akapit --> p:first-child {font-size: 9mm; font-style: italic;} <br>
+bo parzysty numer w dzienniku <br>
+pozostałe akapity --> p {font-size: 10pt;} bo numer parzysty <br>
+szerokość bloku = 700 + 4 * 8 = 732pt <br>
+pierwszy DIV --> kolor różowy </p>
+<p> Trzeci akapit/pierwszy DIV <br>
+pierwszy DIV --> obramowanie fioletowe DIV <br>
+pierwszy DIV --> obramowanie grubości 7px, ciągłe (solid) <br>
+pierwszy DIV --> r1 = 7mm + 6(Łukasz) = 13mm </p>
+
+</div>
+
+<div id="drugi_kasprowicz">
+<p> Pierwszy akapit/drugi DIV --> Łukasz <br>
+nazwa ID akapitu id="drugi_kasprowicz" </p>
+<p> Drugi akapit/drugi DIV <br>
+drugi DIV --> kolor jasno zielony </p>
+<p> Trzeci akapit/drugi DIV <br>
+drugi DIV --> obramowanie czarne DIV<br>
+drugi DIV --> obramowanie grubość 3px, ciągłe (solid) <br>
+drugi DIV --> r2 = 7mm + 10(Kasprowicz) = 17mm </p>
+
+</div>
+
+<div id="trzeci_kasprowicz">
+<p> Pierwszy akapit/trzeci DIV --> 3G1 <br>
+nazwa ID akapitu id="trzeci_kasprowicz" </p>
+<p> Drugi akapit/trzeci DIV <br>
+trzeci DIV --> kolor jasno niebieski </p>
+<p> Trzeci akapit/trzeci DIV <br>
+trzeci DIV --> obramowanie granatowe DIV <br>
+trzeci DIV --> obramowanie grubość 5px, ciągłe (solid) <br>
+trzeci DIV --> r3 = 7mm + 10(Październik) = 17mm </p>
+
+</div>
+</body>
+</html>
+<!-- Łukasz Kasprowicz 3G1 -->
+</textarea>
+
+<textarea rows=53 cols=100>
+body {
+  background-color: silver;
+}
+
+p {
+  font-size: 10pt;
+}
+
+p:first-child {
+  font-size: 9mm;
+  font-style: italic;
+}
+
+div#pierwszy_kasprowicz {
+  width: 732pt;
+  background-color: rgb(255,192,203);
+  border: 7px;
+  border-style: solid;
+  border-color: rgb(184,3,255);
+  border-top-right-radius: 13mm;
+  border-top-left-radius: 13mm;
+  border-bottom-left-radius: 13mm;
+  border-bottom-right-radius: 13mm;
+}
+
+div#drugi_kasprowicz {
+  width: 932pt;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(147,246,0);
+  border: 3px;
+  border-style: solid;
+  border-color: rgb(0,0,0);
+  border-top-right-radius: 17mm;
+  border-top-left-radius: 17mm;
+  border-bottom-left-radius: 17mm;
+  border-bottom-right-radius: 17mm;
+}
+
+div#trzeci_kasprowicz {
+  width: 1132pt;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(0,180,255);
+  border: 5px;
+  border-style: solid;
+  border-color: rgb(0,0,128);
+  border-top-right-radius: 17mm;
+  border-top-left-radius: 17mm;
+  border-bottom-left-radius: 17mm;
+  border-bottom-right-radius: 17mm;
+}
+</textarea>
