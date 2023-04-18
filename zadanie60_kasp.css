@@ -1,0 +1,22 @@
+div {
+  font-size: 20mm;
+  width: 608px;
+  background-color: green;
+}
+
+div#blok1_kasprowicz:hover {
+  background-color: orange;
+  font-size: 30mm;
+}
+
+div#blok2_kasprowicz:hover {
+  background-color: blue;
+  font-size: 30mm;
+}
+
+div#blok3_kasprowicz:hover {
+  background-color: #30D5C8;
+  font-size: 30mm;
+}
+/* hover; - zmiana stylu po najechaniu myszką */
+/* Łukasz Kasprowicz 3G1 */
