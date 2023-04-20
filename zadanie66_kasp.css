@@ -1,0 +1,114 @@
+div.pie {
+  text-align: center;
+  background-color: #C0C0C0;
+}
+
+div.dru {
+  text-align: center;
+  background-color: #FFFF99;
+}
+
+div.trz {
+  text-align: right;
+  background-color: #800000;
+}
+
+div.czw {
+  text-align: left;
+  background-color: #FF99FF;
+}
+
+div.pia {
+  
+}
+
+div.szu {
+  text-align: left;
+  background-color: #FF99FF;
+}
+
+div.siu {
+  text-align: right;
+  background-color: #800000;
+}
+
+div.osm {
+  text-align: center;
+  background-color: #FFFF99;
+}
+
+div.dzi {
+  text-align: center;
+  background-color: #C0C0C0;
+}
+
+h1.pie, h1.szu {
+  color: #00FF00;
+}
+
+h2.dru, h2.siu {
+  color: #00FFFF;
+}
+
+h3.trz, h3.osm {
+  color: #808000;
+}
+
+h4.czw, h4.dzi {
+  color: #0000FF;
+}
+
+i.pie, i.szu {
+  color: #FF0000;
+}
+
+i.dru, i.siu {
+  color: #008000;
+}
+
+i.trz, i.osm {
+  color: #008080;
+}
+
+i.czw, i.dzi {
+  color: #800080;
+}
+
+div#pia {
+  background-color: #00FFFF;
+}
+
+h1#pia {
+  color: #000080;
+  text-align: center;
+}
+
+i#pia {
+  color: #FFFF00;
+}
+
+ol ol li {
+  color: #008000;
+}
+
+a:link {
+  background-color: #000080;
+  color: #00FFFF;
+}
+
+a:visited {
+  background-color: #00FFFF;
+  color: #000080;
+}
+
+a:hover {
+  background-color: #FF0000;
+  color: #FFFFF00;
+  font-size: x-large;
+  font-size: italic;
+}
+
+a:active {
+  background-color: #000000;
+  color: #FFFFFF;
+}
