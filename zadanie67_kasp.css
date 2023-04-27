@@ -1,0 +1,35 @@
+p.jeden:first-letter {
+  font-size: 120pt;
+  color: yellow;
+}
+
+p {
+  font-size: 21pt;
+  color: silver;
+}
+
+p.dwa:first-letter {
+  font-size: 120pt;
+  color: gold;
+}
+
+h1:first-letter {
+  font-size: 120pt;
+  color: silver;
+}
+
+h1 {
+  color: purple;
+}
+
+p.trzy:first-line {
+  color: red;
+}
+
+p.trzy:first-letter {
+  font-size: 120pt;
+}
+
+p.trzy {
+  color: purple;
+}
